@@ -1,0 +1,5 @@
+<%= render partial: 'book',
+           object: @books,
+           locals: { display_book_link: false } %>
+
+<p><%= link_to 'Back', book_index_path %></p>
